@@ -1,0 +1,42 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server --config webpack.server.js --mode development",
+    "test": "karma start karma.config.js",
+    "build": "rimraf dist && webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.6.2",
+    "@babel/preset-env": "7.6.2",
+    "@vue/test-utils": "^1.0.0-beta.31",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "3.2.0",
+    "jasmine": "^3.5.0",
+    "jasmine-core": "^3.5.0",
+    "karma": "^4.3.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "karma-webpack": "^4.0.2",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "rimraf": "^3.0.0",
+    "vue": "2.6.10",
+    "vue-loader": "15.7.1",
+    "vue-style-loader": "4.1.2",
+    "vue-template-compiler": "2.6.10",
+    "webpack": "4.41.0",
+    "webpack-clean": "^1.2.3",
+    "webpack-cli": "3.3.9",
+    "webpack-dev-server": "3.8.2",
+    "webpack-merge": "^4.2.2"
+  }
+}
